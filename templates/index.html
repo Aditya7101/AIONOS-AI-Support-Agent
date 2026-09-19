@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AIONOS AI Support</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header>
+
+            <div>
+                <h1>🤖 AIONOS AI Support</h1>
+                <p>Intelligent IT assistance for employees</p>
+            </div>
+
+            <div class="status">
+                <span></span> AI Agent Online
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <section class="welcome">
+
+                <h2>How can I help you?</h2>
+
+                <p>
+                    Describe your IT problem and our AI agent will help you resolve it.
+                </p>
+
+            </section>
+
+
+            <!-- Agent Activity Panel -->
+
+            <div class="agent-activity" id="agentActivity">
+
+                <div class="activity-title">
+                    🤖 Agent Activity
+                </div>
+
+                <div class="activity-step" id="step1">
+                    <span>○</span> Understanding your issue
+                </div>
+
+                <div class="activity-step" id="step2">
+                    <span>○</span> Searching AIONOS knowledge base
+                </div>
+
+                <div class="activity-step" id="step3">
+                    <span>○</span> Analyzing the best solution
+                </div>
+
+                <div class="activity-step" id="step4">
+                    <span>○</span> Preparing response
+                </div>
+
+            </div>
+
+
+            <!-- Chat Area -->
+
+            <div class="chat-box">
+
+                <div class="message agent">
+
+                    <div class="avatar">
+                        AI
+                    </div>
+
+                    <div class="bubble">
+
+                        Hello! I'm the AIONOS AI Support Agent.
+
+                        <br><br>
+
+                        Tell me what's wrong with your device, network,
+                        VPN, software or account.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- User Input -->
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    placeholder="Describe your IT problem..."
+                    id="userInput"
+                >
+
+                <button id="sendButton">
+                    Send
+                </button>
+
+            </div>
+
+
+            <!-- Ticket Dashboard Button -->
+
+            <div class="ticket-link">
+
+                <a href="/tickets">
+                    🎫 View Support Tickets
+                </a>
+
+            </div>
+
+
+        </main>
+
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+AIONOS WIFI TROUBLESHOOTING GUIDE
+
+Problem:
+Employee cannot connect to company Wi-Fi.
+
+Step 1:
+Check that Wi-Fi is enabled on the device.
+
+Step 2:
+Disconnect from the Wi-Fi network and reconnect.
+
+Step 3:
+Check whether other devices can connect to the same network.
+
+Step 4:
+Restart the computer.
+
+Step 5:
+If the issue continues, create an IT support ticket.
+
+Priority:
+Normal Wi-Fi connectivity problems are Medium priority.
+
+Escalation:
+If multiple employees are affected by the same Wi-Fi problem, escalate to the IT infrastructure team.

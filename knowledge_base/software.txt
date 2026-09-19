@@ -1,0 +1,25 @@
+AIONOS SOFTWARE SUPPORT GUIDE
+
+Problem:
+Employee cannot install or use required software.
+
+Step 1:
+Check whether the software is approved by the organization.
+
+Step 2:
+Check whether the employee has the required permissions.
+
+Step 3:
+Restart the computer and try again.
+
+Step 4:
+Check for an available approved software update.
+
+Step 5:
+If the problem continues, create an IT support ticket.
+
+Priority:
+Normal software problems are Medium priority.
+
+Escalation:
+Security-related software problems should be escalated to the IT/security team.

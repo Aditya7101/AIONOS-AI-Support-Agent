@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AIONOS - IT Tickets</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header>
+
+            <div>
+                <h1>🎫 AIONOS IT Support Tickets</h1>
+                <p>Manage and monitor employee support requests</p>
+            </div>
+
+            <a href="/" class="back-button">
+                ← Back to AI Support
+            </a>
+
+        </header>
+
+
+        <main>
+
+            <div class="welcome">
+
+                <h2>Support Tickets</h2>
+
+                <p>
+                    Tickets automatically created by the AIONOS AI Support Agent.
+                </p>
+
+            </div>
+
+
+            {% if tickets %}
+
+            <div class="ticket-table">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Ticket ID</th>
+                            <th>Issue</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th>Created At</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for ticket in tickets %}
+
+                        <tr>
+
+                            <td>
+                                <strong>{{ ticket[0] }}</strong>
+                            </td>
+
+                            <td>
+                                {{ ticket[1] }}
+                            </td>
+
+                            <td>
+                                <span class="priority">
+                                    {{ ticket[2] }}
+                                </span>
+                            </td>
+
+                            <td>
+                                <span class="ticket-status">
+                                    {{ ticket[3] }}
+                                </span>
+                            </td>
+
+                            <td>
+                                {{ ticket[4] }}
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            {% else %}
+
+            <div class="empty-tickets">
+
+                <h3>📭 No Tickets Yet</h3>
+
+                <p>
+                    When the AI agent escalates an unresolved issue,
+                    the ticket will appear here.
+                </p>
+
+            </div>
+
+            {% endif %}
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

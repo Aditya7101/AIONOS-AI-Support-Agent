@@ -1,0 +1,25 @@
+AIONOS LAPTOP TROUBLESHOOTING GUIDE
+
+Problem:
+Employee's laptop is slow, freezing, or behaving unexpectedly.
+
+Step 1:
+Close unnecessary applications.
+
+Step 2:
+Restart the laptop.
+
+Step 3:
+Check available storage space.
+
+Step 4:
+Install pending operating system updates if available.
+
+Step 5:
+If the problem continues, create an IT support ticket.
+
+Priority:
+Repeated freezing or major performance problems are Medium priority.
+
+Escalation:
+If the laptop cannot boot or the employee cannot perform their work, escalate to IT support.

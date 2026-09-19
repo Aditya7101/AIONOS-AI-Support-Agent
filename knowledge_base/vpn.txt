@@ -1,0 +1,25 @@
+AIONOS VPN TROUBLESHOOTING GUIDE
+
+Problem:
+Employee cannot connect to the company VPN.
+
+Step 1:
+Check that the employee has a working internet connection. Open a normal website to confirm internet access.
+
+Step 2:
+Check multi-factor authentication. Make sure the employee approves the MFA notification or enters the correct authentication code.
+
+Step 3:
+Close the VPN application completely and reopen it.
+
+Step 4:
+Restart the computer and try connecting to the VPN again.
+
+Step 5:
+If the VPN still does not work after these steps, create an IT support ticket.
+
+Priority:
+Normal VPN connectivity issues are Medium priority.
+
+Escalation:
+If the employee cannot access critical company systems because of the VPN problem, escalate the issue to the IT support team.
